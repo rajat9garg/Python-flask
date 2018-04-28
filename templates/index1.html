@@ -1,0 +1,31 @@
+<html>
+<head>
+	<title>Login Page</title>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='style1.css')}}">
+</head>
+<body>
+	<header> 
+		<div class="row">
+			<div class="logo">
+				<img src="{{image}}"></img>
+			</div>
+		<ul class="main-nav">
+			<li class="active"><a href="">Home</a></li>
+			<li><a href="">Services</a></li> 
+			<li><a href="">About</a></li>
+			<li><a href="">Profile</a></li>
+			<li><a href="/news">News</a></li>
+			<li><a href="/logout">logout</a></li>
+		</ul>
+		</div>
+		<div class="hero">
+			<h1>Welcome {{naam}}</h1>
+			
+			<div class="button">
+				<a href="" class="btn btn-one">Watch Video</a>
+				<a href="" class="btn btn-two">Anand</a>
+				
+		</div>
+	</header>
+</body>
+</html>

@@ -1,0 +1,115 @@
+*
+{
+	margin: 0;
+	padding:0;
+}
+
+header
+{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(pic.jpg);
+	height: 100vh;
+	background: cover;
+	background-position:center; 
+}
+
+.main-nav
+{
+	float:right;
+	list-style: none;
+	margin-top:30px;
+}
+
+.main-nav li
+{
+	display: inline-block;
+}
+
+.main-nav li a
+{
+	color:white;
+	text-decoration: none;
+	padding: 5px 20px;
+	font-family:"Roboto",sans-serif;
+	font-size: 15;
+}
+
+.main-nav li a:hover
+{
+	border:1px solid white;
+}
+
+.logo img
+{
+	float: left;
+	width:150px;
+	height: auto;
+}
+
+
+body
+{
+	font-family:monospace;
+
+}
+
+.row
+{
+	max-width:1200px;
+	margin: auto;
+}
+
+.hero
+{
+	position: absolute;
+	width: 1200px;
+	margin-top: 250px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+h1
+{
+	color: white;
+	text-transform: uppercase;
+	font-size: 50px;
+	text-align:center;
+	margin-top: 100px;
+}
+
+.button
+{
+	margin-top:25px;
+	margin-left:480px;
+}
+
+.btn
+{
+	border: 1px solid white;
+	padding:10px 30px;
+	color: white;
+	text-decoration:none;
+	margin-right: auto;
+	font-size: 13px;
+	text-transform: uppercase;
+
+}
+
+.btn-one
+{
+	background-color: purple;
+	font-family: "Roboto", sans-serif;
+
+}
+
+.btn-two
+{
+	background-color: blue;
+	font-family: "Roboto", sans-serif;
+	
+}
+
+.btn-two:hover
+{
+	background-color: orange;
+	transition: all 0.5s ease-in;
+}
